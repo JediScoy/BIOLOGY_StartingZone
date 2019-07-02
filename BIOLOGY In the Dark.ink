@@ -4,7 +4,7 @@
 VAR dumb_choice = ""
 VAR a_colour = ""
 
-~ dumb_choice = "{~an idiotic choice|a dumb decision|a rather stupid decision|a hastey choice|not well thought out|not an intelligent choice|not a smart idea}" 
+~ dumb_choice = "{~an idiotic choice|a dumb decision|a rather stupid decision|a hastey decision|not well thought out|not an intelligent choice|not a smart idea}" 
 
 Welcome weary adventurer!
 * [<i>NEXT</i>]->opening_scene
