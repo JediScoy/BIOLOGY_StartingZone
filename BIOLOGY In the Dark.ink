@@ -2,7 +2,6 @@
 # author: Master Scoy
 
 VAR dumb_choice = ""
-VAR a_colour = ""
 
 ~ dumb_choice = "{~an idiotic choice|a dumb decision|a rather stupid decision|a hastey decision|not well thought out|not an intelligent choice|not a smart idea}" 
 
