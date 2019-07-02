@@ -41,7 +41,7 @@ h3.written-in-ink {
     font-size: 9pt;
     font-family: sans-serif;
     text-align: center;
-    font-weight: 700;
+/*    font-weight: 700; */
     font-style: italic;
     display: block;
     width: 100%;
@@ -79,7 +79,9 @@ h3.homepage {
 
 .container {
     display: block;
-    max-width: 600px;
+/*    max-width: 600px; */
+
+    max-width: 540px;
     margin: 1em auto;
     /* margin: 0 auto; */
     padding: 20px;
@@ -103,7 +105,7 @@ p {
 }
 
 a {
-    font-weight: 700;
+/*    font-weight: 700; */
     color: #854D4C; /* Tuscan Red */
     font-family: sans-serif;
     transition: color 0.6s;

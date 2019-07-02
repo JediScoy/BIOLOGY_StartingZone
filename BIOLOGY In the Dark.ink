@@ -1,10 +1,6 @@
 # title: In the Dark
 # author: Master Scoy
 
-VAR dumb_choice = ""
-
-~ dumb_choice = "{~an idiotic choice|a dumb decision|a rather stupid decision|a hastey decision|not well thought out|not an intelligent choice|not a smart idea}" 
-
 Welcome weary adventurer!
 * [<i>NEXT</i>]->opening_scene
 
@@ -31,7 +27,7 @@ You listen intently, but don't hear anything at first. After a few moments you t
 ->senses
 
 =2_1_taste
-You give the floor a hearty link. It taste salty with a slight burning sensation. Hopefully its nothing too acidic, alkaline, or otherwise poisonous. In retrospect, it was {dumb_choice} to lick an unknown substance. One never knows what sort of tiny creatures cover a surface.
+You give the floor a hearty lick. It taste salty with a slight burning sensation. Hopefully its nothing too acidic, alkaline, or otherwise poisonous. In retrospect, it was {~a rather stupid decision|a hasty decision|an idiotic choice|a dumb decision|not well thought out|not an intelligent choice|not a smart idea} to lick an unknown substance. One never knows what sort of tiny creatures cover a surface.
 
 ->senses
 
@@ -50,14 +46,14 @@ Reaching into your tunic you grasp the handle of a greasy torch and pull it out.
 * Throw the flint and steel against the floor in frustration. ->2_2_throw
 
 =2_2_throw
-After standing in the dark for a moment, you realize that was {dumb_choice}. You fubble around for ten or fifteen minutes on the floor before finding the flint and steel.
-* You strike the flint and steel near the torch. ->flint_strike
+After standing in the dark for a moment, you realize that was {~an idiotic choice|a dumb decision|a rather stupid decision|a hasty decision|not well thought out|not an intelligent choice|not a smart idea}. You fubble around for ten or fifteen minutes on the floor before finding the flint and steel.
++ You strike the flint and steel near the torch. ->flint_strike
 
 =flint_strike
 {~Nothing happens|A spark starts a flame but it fizzles out|The torch whooshes to life and then quickly dies}.
 
 + {flint_strike_fail < 4} You strike the flint and steel near the torch again. ->flint_strike_fail
-* Throw the flint and steel against the floor in frustration ->2_2_throw
++ Throw the flint and steel against the floor in frustration ->2_2_throw
 
 + {flint_strike_fail > 3} You strike the flint and steel near the torch again with a silent prayer.  ->2_3B
 
@@ -70,6 +66,7 @@ A small spark whooshes the torch into life. ->2_4
 
 =2_4
 The room is bathed in a soft orange glow as the light reflects off from the walls...
+
 -> END
 
 =2_5
