@@ -5,7 +5,7 @@ Welcome weary adventurer!
 * [<i>NEXT</i>]->opening_scene
 
 =opening_scene
-You wake up in a cool, dry room. You are engulfed in inky blackness. You get the impression that you are in some sort of dungeon or cave, but its difficult to {~decipher|interpret|perceive} anything. ->senses
+You wake up in a cool, dry room. You are engulfed in inky blackness. You get the impression that you are in some sort of dungeon or cave, but its difficult to {~sense|decipher|interpret|perceive} much. ->senses
 
 =senses
 * [Peer into the darkness] ->2_1_see
@@ -27,7 +27,7 @@ You listen intently, but don't hear anything at first. After a few moments you t
 ->senses
 
 =2_1_taste
-You give the floor a hearty lick. It taste salty with a slight burning sensation. Hopefully its nothing too acidic, alkaline, or otherwise poisonous. In retrospect, it was {~a rather stupid decision|a hasty decision|an idiotic choice|a dumb decision|not well thought out|not an intelligent choice|not a smart idea} to lick an unknown substance. One never knows what sort of tiny creatures cover a surface.
+You give the floor a big lick. It taste salty with a slight burning sensation. Hopefully its nothing too acidic, alkaline, or otherwise poisonous. In retrospect, it was {~a rather stupid decision|a hasty decision|an idiotic decision} to lick an unknown substance. One never knows what sort of tiny creatures cover a surface.
 
 ->senses
 
@@ -36,7 +36,7 @@ You inhale deeply. It smells salty and lacks any organic smells. A momement late
 ->senses
 
 =2_1_touch
-The floor has a rough, crystalline feel to it. Its has the feel of being carved or smoothed though by tools.
+You reach a hand down and touch the floor.It has a rough, crystalline feel to it. Its has the feel of being carved or smoothed though by tools.
 ->senses
 
 =2_2
@@ -65,7 +65,7 @@ After standing in the dark for a moment, you realize that was {~an idiotic choic
 A small spark whooshes the torch into life. ->2_4
 
 =2_4
-The room is bathed in a soft orange glow as the light reflects off from the walls...
+The room is bathed in a soft orange glow as the light reflects off from the walls... 
 
 -> END
 
